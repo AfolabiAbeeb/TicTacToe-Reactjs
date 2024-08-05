@@ -1,8 +1,9 @@
 .container {
     text-align: center;
+    height: 100vh;
 }
 .title {
-    margin-top: 50px;
+    margin-top: 20px;
     color: white;
     font-size: 60px;
     display: flex;
@@ -14,8 +15,8 @@
     padding-left: 15px;
 }
 .reset {
-    width: 250px;
-    height: 100px;
+    width: 180px;
+    height: 80px;
     border: none;
     outline: none;
     cursor: pointer;
@@ -23,12 +24,14 @@
     background: black;
     font-size: 24px;
     color: aquamarine;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 62px;
+    /* justify-self: center; */
 }
 .boxes {
     display: flex;
-    height: 180px;
+    height: 33%;
     width: 180px;
     background: #1f3540;
     border: 4px solid #0f1b21;
@@ -36,7 +39,7 @@
     cursor: pointer;
 }
 .board {
-    height: 600px;
+    height: 60%;
     width: 500px;
     display: flex;
     margin: auto;
